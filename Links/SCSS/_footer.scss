@@ -1,0 +1,56 @@
+.footer {
+    display: inline-block;
+    width: 100%;
+    background: $gray;
+    color: $white;
+
+    text-align: center;
+
+    @media only screen and (min-width: 767px) {
+        
+        
+    }
+
+
+    &-logo {
+        display: inline-block;
+        max-width: 85px;
+        max-height: 85px;
+
+    }
+
+    &-links {
+        a {
+            color: $lighterGray;
+            transition: color 200ms ease-in-out;
+
+            &:hover {
+                color: $white;
+
+            }
+        
+        }
+
+        &-1 {
+            display: flex;
+            flex-direction: column;
+            gap: 1.1875rem;
+            margin-bottom: 1.1875rem;
+
+        }
+
+        &-2 {
+            display: flex;
+            flex-direction: column;
+            gap: 1.1875rem;
+            margin-bottom: 3.125rem;
+
+        }
+
+    }
+
+}
+
+.logo-container {
+    padding: 1.125rem 0px 0.8125rem 0.0625rem;
+}

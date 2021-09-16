@@ -1,0 +1,109 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    color: $lightGray;
+    font-size: 17px;
+    overflow-x: hidden;
+    z-index: 0;
+
+}
+
+a {
+    text-decoration: none;
+    color: $lightGray;
+
+}
+
+//Margins for Formatting
+.margins_for_media_queries {
+    margin-left: 2rem;
+
+    @media only screen and (min-width: 767px) {
+        margin-left: 2.5rem;
+        
+    }
+
+    @media only screen and (min-width: 1023px) {
+        margin-left: 7rem;
+        
+    }
+
+    @media only screen and (min-width: 1439px) {
+        margin-left: 18rem;
+        
+    }
+
+}
+
+.padding {
+    &-top {
+        padding-top: 5.0625rem;
+    }
+}
+
+//Flexbox
+.flex {
+    display: flex;
+
+    &-jc-sb {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-jc-se {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    &-ai-c {
+        display: flex;
+        align-items: center;
+    }
+
+    &-column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &-as-c {
+        display: flex;
+        align-self: center;
+    }
+
+}
+
+.button {
+    position: relative;
+    display: inline-block;
+    padding: 0.75rem 2.6rem;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    color: $white;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: $gray;
+    overflow: hidden;
+    transition: opacity 200ms ease-in-out;
+    overflow: hidden;
+    opacity: 1;
+
+    &:hover {
+        opacity: 0.65;
+    }
+
+    &:active {
+        opacity: 0.8;
+    }
+}
