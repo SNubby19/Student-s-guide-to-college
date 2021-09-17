@@ -1,0 +1,10 @@
+Instead of schools, have a two tier system,
+
+At first tier have a selection based on degree,
+    under the degree tier, have selection based on school
+    **later on, add a courses section under each degree to inform students 
+        which courses they will need to take in high school to meet prereqs for 
+        the program
+
+
+Simon GHub: noisya55616
