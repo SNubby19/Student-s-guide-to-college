@@ -6,6 +6,15 @@
 
     text-align: center;
 
+    @media only screen and(min-width: 767px) {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        grid-template-areas: "logo links1 links2";
+        justify-items: center;
+        
+    }
+
     &-logo {
         display: inline-block;
         max-width: 85px;
@@ -31,6 +40,10 @@
             gap: 1.1875rem;
             margin-bottom: 1.1875rem;
 
+            @media only screen and(min-width: 767px) {
+                grid-area: links1;
+            }
+
         }
 
         &-2 {
@@ -38,6 +51,11 @@
             flex-direction: column;
             gap: 1.1875rem;
             margin-bottom: 3.125rem;
+
+            @media only screen and(min-width: 767px) {
+                margin-bottom: 0;
+                grid-area: links2;
+            }
 
         }
 
@@ -47,4 +65,9 @@
 
 .logo-container {
     padding: 1.125rem 0px 0.8125rem 0.0625rem;
+
+    @media only screen and(min-width: 767px) {
+        grid-area: logo;
+        align-self: center;
+    }
 }
