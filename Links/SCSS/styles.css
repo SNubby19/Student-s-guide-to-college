@@ -257,7 +257,7 @@ a {
     font-size: 1rem;
   }
   .header_desktop-links a:not(:last-child) {
-    margin-right: 3.9375rem;
+    margin-right: 3rem;
   }
 }
 
