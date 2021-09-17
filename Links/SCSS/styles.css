@@ -239,7 +239,7 @@ a {
 
 @media only screen and (min-width: 992px) {
   .header_desktop-links {
-    margin-right: 6.25rem;
+    margin-right: 3rem;
   }
   .header_desktop-links a {
     font-size: 1rem;
