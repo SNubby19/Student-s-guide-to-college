@@ -20,6 +20,18 @@ body {
   z-index: 0;
 }
 
+h1 {
+  line-height: 1.55;
+  font-size: 32px;
+  color: #253439;
+}
+
+p {
+  line-height: 1.8;
+  font-size: 1rem;
+  color: #02524b;
+}
+
 a {
   text-decoration: none;
   color: #02524b;
