@@ -1,7 +1,3 @@
-.degrees {
-    
-}
-
 .degree {
     position: relative;
     display: flex;
@@ -20,7 +16,7 @@
 
     &-title {
         position: absolute;
-
+        text-decoration: none;
     }
 
     &::before {

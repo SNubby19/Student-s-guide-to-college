@@ -505,6 +505,7 @@ a {
 
 .degree-title {
   position: absolute;
+  text-decoration: none;
 }
 
 .degree::before {
