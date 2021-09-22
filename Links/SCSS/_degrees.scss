@@ -1,0 +1,23 @@
+.degrees {
+
+}
+
+.degree {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-title {
+        position: absolute;
+    }
+
+    &::after {
+        content: "";
+        background-image: url("/Images/250x250.png");
+        display: inline-block;
+        width: 250px;
+        height: 250px;
+
+    }
+}

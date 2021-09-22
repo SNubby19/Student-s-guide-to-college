@@ -480,4 +480,29 @@ a {
         align-self: center;
   }
 }
+
+.degree {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.degree-title {
+  position: absolute;
+}
+
+.degree::after {
+  content: "";
+  background-image: url("/Images/250x250.png");
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+}
 /*# sourceMappingURL=styles.css.map */
