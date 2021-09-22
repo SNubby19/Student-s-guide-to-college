@@ -481,6 +481,15 @@ a {
   }
 }
 
+.degrees {
+  background: #f1f1f1;
+}
+
+.degrees-title {
+  font-size: 2.1875rem;
+  font-weight: 400;
+}
+
 .degree {
   position: relative;
   display: -webkit-box;
