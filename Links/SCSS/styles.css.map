@@ -10,7 +10,8 @@
         "_about.scss",
         "_schools.scss",
         "_footer.scss",
-        "_degrees.scss"
+        "_degrees.scss",
+        "_standardized-tests.scss"
     ],
     "names": [],
     "file": "styles.css"
