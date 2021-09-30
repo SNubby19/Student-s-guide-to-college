@@ -71,7 +71,7 @@
 
             font-weight: 400;
             text-decoration: none;
-            color: $lightGray;  
+            color: $pTextDark;  
             
             transition: all 200ms ease-in-out;
             
@@ -85,7 +85,7 @@
                 right: -0.25rem;
                 bottom: -0.125rem;
 
-                border-bottom: 3px solid $gray;
+                border-bottom: 3px solid $black;
 
                 transform: scaleX(0%);
 
@@ -98,7 +98,7 @@
             }
 
             &:hover {
-                color: $gray;
+                color: $black;
 
                 &::before{
                     transform: scaleX(100%);

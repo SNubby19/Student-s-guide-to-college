@@ -1,16 +1,43 @@
-.sat {
-    display: flex;
-    flex-direction: column;
+.test {
     width: 100%;
+    margin: 0;
 
     &-i {
-        max-width: 850px;
+        max-width: 800px;
+        text-align: left;
+        
+        h1 {
+            padding: 42px 0px;
+            font-size: 2.5rem;
+            margin: 0;
+        }
 
         h3 {
             font-weight: 600;
-            color: $h3-text;
+            color: $gray
+        }
+
+        p {
+            line-height: 2;
+            font-size: 1.1rem;
+        }
+
+        > div {
+            margin-bottom: 88px;
         }
 
     }
 
+}
+
+#sat {
+    background-color: $offWhite;
+}
+
+#act {
+    background-color: $white;
+}
+
+#ap {
+    background-color: $offWhite;
 }
