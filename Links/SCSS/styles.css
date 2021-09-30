@@ -524,18 +524,55 @@ a {
   height: 100%;
 }
 
+.stintro-text {
+  max-width: 50rem;
+  margin-bottom: 3rem;
+}
+
+.stintro-text h1 {
+  padding: 2rem 0px 1.7rem 0px;
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.stintro-banner {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  padding: 2.5rem 0px 3rem 0px;
+}
+
+.stintro-actlogo {
+  height: 5rem;
+  margin-bottom: 0.625rem;
+}
+
+.stintro-satlogo {
+  height: 6.5625rem;
+}
+
+.stintro-aplogo {
+  height: 6.5625rem;
+}
+
 .test {
   width: 100%;
   margin: 0;
 }
 
 .test-i {
-  max-width: 800px;
+  max-width: 50rem;
   text-align: left;
 }
 
 .test-i h1 {
-  padding: 42px 0px;
+  padding: 5.07rem 0px 1.7rem 0px;
   font-size: 2.5rem;
   margin: 0;
 }
@@ -551,14 +588,14 @@ a {
 }
 
 .test-i > div {
-  margin-bottom: 88px;
-}
-
-#sat {
-  background-color: #f1f1f1;
+  margin-bottom: 5.5rem;
 }
 
 #act {
+  background-color: #f1f1f1;
+}
+
+#sat {
   background-color: white;
 }
 
