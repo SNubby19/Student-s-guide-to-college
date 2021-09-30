@@ -14,7 +14,7 @@ body {
   padding: 0px;
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 300;
-  color: #02524b;
+  color: rgba(2, 82, 75, 0.646);
   font-size: 17px;
   overflow-x: hidden;
   z-index: 0;
@@ -22,14 +22,16 @@ body {
 
 h1 {
   line-height: 1.55;
-  font-size: 1.625rem;
+  font-size: 2rem;
   color: #253439;
+  font-weight: 400;
 }
 
 p {
   line-height: 1.8;
   font-size: 1rem;
-  color: #02524b;
+  font-weight: 200;
+  color: rgba(2, 82, 75, 0.646);
 }
 
 a {
@@ -341,15 +343,12 @@ a {
 .hero-text h1 {
   padding-right: 0.125rem;
   line-height: 1.55;
-  font-size: 32px;
-  color: #253439;
+  font-size: 2.25rem;
 }
 
 .hero-text p {
   padding-right: 2.6875rem;
   line-height: 1.8;
-  font-size: 1rem;
-  color: #02524b;
 }
 
 @media only screen and (min-width: 767px) {
@@ -379,8 +378,8 @@ a {
   width: 100%;
 }
 
-.about-title {
-  font-size: 36px;
+.about h1 {
+  font-weight: 400;
 }
 
 .footer {
@@ -486,7 +485,6 @@ a {
 }
 
 .degrees-title {
-  font-size: 2.1875rem;
   font-weight: 400;
 }
 
@@ -535,14 +533,6 @@ a {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 100%;
-  background: #f1f1f1;
-}
-
-.sat h1 {
-  display: block;
-}
-
-.sat-i {
-  display: block;
+  color: #abb5ba .sat -i;
 }
 /*# sourceMappingURL=styles.css.map */

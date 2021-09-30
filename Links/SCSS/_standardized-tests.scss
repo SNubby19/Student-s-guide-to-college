@@ -2,14 +2,10 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    background: $offWhite;
-
-    h1 {
-        display: block;
-
-    }
+    color: $lighterGray
 
     &-i {
-        display: block;
+
     }
+
 }

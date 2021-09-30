@@ -12,7 +12,7 @@ body {
     padding: 0px;
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 300;
-    color: $lightGray;
+    color: $p-text;
     font-size: 17px;
     overflow-x: hidden;
     z-index: 0;
@@ -23,14 +23,16 @@ body {
 //Element Specific Global Styles
 h1 {
     line-height: 1.55;
-    font-size: 1.625rem;
+    font-size: 2rem;
     color: $gray;
+    font-weight: 400;
 }
 
 p {
     line-height: 1.8;
     font-size: 1rem;
-    color: $lightGray;
+    font-weight: 200;
+    color: $p-text;
 
 }
 
