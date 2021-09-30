@@ -536,6 +536,11 @@ a {
 }
 
 .sat-i {
-  max-width: 900px;
+  max-width: 850px;
+}
+
+.sat-i h3 {
+  font-weight: 600;
+  color: #0b5f56;
 }
 /*# sourceMappingURL=styles.css.map */
