@@ -533,6 +533,9 @@ a {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 100%;
-  color: #abb5ba .sat -i;
+}
+
+.sat-i {
+  max-width: 900px;
 }
 /*# sourceMappingURL=styles.css.map */
