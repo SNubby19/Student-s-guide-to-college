@@ -65,6 +65,10 @@ a {
   padding-top: 5.0625rem;
 }
 
+.padding-bottom {
+  padding-bottom: 5.0625rem;
+}
+
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -119,13 +123,13 @@ a {
 .button {
   position: relative;
   display: inline-block;
-  padding: 0.75rem 2.6rem;
+  padding: 0.6rem 2.3rem;
   border-radius: 50px;
   cursor: pointer;
   border: none;
   color: white;
   font-size: 1rem;
-  font-weight: 700;
+  font-weight: 400;
   background-color: #253439;
   overflow: hidden;
   -webkit-transition: opacity 200ms ease-in-out;
@@ -341,6 +345,7 @@ a {
           flex-direction: row;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  gap: 2.875rem;
 }
 
 .hero-text {
@@ -357,11 +362,11 @@ a {
 
 .hero-text p {
   padding-right: 2.6875rem;
-  line-height: 1.8;
+  line-height: 2;
 }
 
-.hero-ib {
-  margin-top: 1.25rem;
+.hero-text a {
+  margin-top: 20px;
 }
 
 .about {
@@ -369,12 +374,23 @@ a {
   width: 100%;
 }
 
-.about-title {
-  width: 100%;
+.about-text {
+  max-width: 55rem;
+  padding: 0px 2rem;
 }
 
-.about-description {
-  max-width: 60rem;
+@media only screen and (min-width: 1439px) {
+  .about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
 }
 
 .footer {

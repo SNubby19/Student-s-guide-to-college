@@ -2,12 +2,16 @@
     background: $white;
     width: 100%;
 
-    &-title {
-        width: 100%;
+    &-text {
+        max-width: 55rem;
+        padding: 0px 2rem;
+
     }
 
-    &-description {
-        max-width: 60rem;
-
+    @media only screen and(min-width: 1439px) {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
     }
 }

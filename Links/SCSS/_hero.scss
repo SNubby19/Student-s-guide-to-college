@@ -7,6 +7,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
+    gap: 2.875rem;
 
     &-text {
         position: relative;
@@ -22,30 +23,12 @@
 
         p {
             padding-right: 2.6875rem;
-            line-height: 1.8;
+            line-height: 2;
 
         }
 
-        // @media only screen and (min-width: 767px) {
-        //     margin-left: 5rem;
-            
-        // }
+        a {margin-top: 20px;}
 
-        // @media only screen and (min-width: 1023px) {
-        //     margin-left: 7rem;
-            
-        // }
-
-        // @media only screen and (min-width: 1439px) {
-        //     margin-left: 18rem;
-            
-        // }
-
-    }
-
-    &-ib {
-        margin-top: 1.25rem;
-        
     }
 
     @media only screen and(min-width: 767px) {
