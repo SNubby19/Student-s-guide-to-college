@@ -497,6 +497,25 @@ a {
 
 .degrees-title {
   font-weight: 400;
+  margin: 0px 0px 2rem 3rem;
+}
+
+@media only screen and (min-width: 767px) {
+  .degrees-title {
+    margin-left: 4.1rem;
+  }
+}
+
+@media only screen and (min-width: 1023px) {
+  .degrees-title {
+    margin-left: 5.2rem;
+  }
+}
+
+@media only screen and (min-width: 1439px) {
+  .degrees-title {
+    margin-left: 17rem;
+  }
 }
 
 .degrees-layout {
