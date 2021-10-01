@@ -4,11 +4,13 @@
     width: 100%;
     z-index: 1;
 
-    padding-bottom: 5.625rem;
-    
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+
     &-text {
         position: relative;
-        max-width: 460px;
+        max-width: 28.75rem;
         margin-left: 2rem;
 
         h1 {
@@ -24,25 +26,29 @@
 
         }
 
-        @media only screen and (min-width: 767px) {
-            margin-left: 5rem;
+        // @media only screen and (min-width: 767px) {
+        //     margin-left: 5rem;
             
-        }
+        // }
 
-        @media only screen and (min-width: 1023px) {
-            margin-left: 7rem;
+        // @media only screen and (min-width: 1023px) {
+        //     margin-left: 7rem;
             
-        }
+        // }
 
-        @media only screen and (min-width: 1439px) {
-            margin-left: 18rem;
+        // @media only screen and (min-width: 1439px) {
+        //     margin-left: 18rem;
             
-        }
+        // }
 
     }
 
     &-ib {
         margin-top: 1.25rem;
+        
+    }
+
+    @media only screen and(min-width: 767px) {
         
     }
 

@@ -1,6 +1,6 @@
 .stintro {
     &-text {
-        max-width: 60rem;
+        max-width: 55rem;
         margin-bottom: 3rem;
 
         h1 {
@@ -74,7 +74,7 @@
     margin: 0;
 
     &-i {
-        max-width: 60rem;
+        max-width: 55rem;
         text-align: left;
 
         
@@ -133,7 +133,7 @@
             }
 
             @media only screen and(min-width: 1023px) {
-                margin: 0px;
+                margin: 1.25rem 0px;
             }
             
         }

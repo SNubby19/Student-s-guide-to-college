@@ -1,20 +1,13 @@
 .about {
     background: $white;
-    max-width: 100%;
+    width: 100%;
 
     &-title {
-        max-width: 60rem;
-        margin-left: 2rem;
-        padding-right: 1rem;
-
-        h1 {
-            align-self: start;
-        }
+        width: 100%;
     }
 
     &-description {
         max-width: 60rem;
-        margin: 0px 2rem;
 
     }
 }

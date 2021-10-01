@@ -333,12 +333,19 @@ a {
   background: #f1f1f1;
   width: 100%;
   z-index: 1;
-  padding-bottom: 5.625rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .hero-text {
   position: relative;
-  max-width: 460px;
+  max-width: 28.75rem;
   margin-left: 2rem;
 }
 
@@ -353,48 +360,21 @@ a {
   line-height: 1.8;
 }
 
-@media only screen and (min-width: 767px) {
-  .hero-text {
-    margin-left: 5rem;
-  }
-}
-
-@media only screen and (min-width: 1023px) {
-  .hero-text {
-    margin-left: 7rem;
-  }
-}
-
-@media only screen and (min-width: 1439px) {
-  .hero-text {
-    margin-left: 18rem;
-  }
-}
-
 .hero-ib {
   margin-top: 1.25rem;
 }
 
 .about {
   background: white;
-  max-width: 100%;
+  width: 100%;
 }
 
 .about-title {
-  max-width: 60rem;
-  margin-left: 2rem;
-  padding-right: 1rem;
-}
-
-.about-title h1 {
-  -ms-flex-item-align: start;
-      -ms-grid-row-align: start;
-      align-self: start;
+  width: 100%;
 }
 
 .about-description {
   max-width: 60rem;
-  margin: 0px 2rem;
 }
 
 .footer {
@@ -540,7 +520,7 @@ a {
 }
 
 .stintro-text {
-  max-width: 60rem;
+  max-width: 55rem;
   margin-bottom: 3rem;
 }
 
@@ -634,7 +614,7 @@ a {
 }
 
 .test-i {
-  max-width: 60rem;
+  max-width: 55rem;
   text-align: left;
 }
 
@@ -705,7 +685,7 @@ a {
 
 @media only screen and (min-width: 1023px) {
   .test-i p {
-    margin: 0px;
+    margin: 1.25rem 0px;
   }
 }
 
