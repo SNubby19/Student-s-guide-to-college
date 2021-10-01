@@ -377,11 +377,24 @@ a {
 
 .about {
   background: white;
-  width: 100%;
+  max-width: 100%;
 }
 
-.about h1 {
-  font-weight: 400;
+.about-title {
+  max-width: 60rem;
+  margin-left: 2rem;
+  padding-right: 1rem;
+}
+
+.about-title h1 {
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+}
+
+.about-description {
+  max-width: 60rem;
+  margin: 0px 2rem;
 }
 
 .footer {
