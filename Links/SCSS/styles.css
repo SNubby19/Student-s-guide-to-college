@@ -36,7 +36,7 @@ p {
 
 a {
   text-decoration: none;
-  color: #02524b;
+  color: #048479;
 }
 
 .margins_for_media_queries {
@@ -158,8 +158,8 @@ a {
   height: 100vh;
   position: absolute;
   top: 81px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#253439), color-stop(#02524b), to(white));
-  background: linear-gradient(to bottom, #253439, #02524b, white);
+  background: -webkit-gradient(linear, left top, left bottom, from(#253439), color-stop(#048479), to(white));
+  background: linear-gradient(to bottom, #253439, #048479, white);
   opacity: 0;
   visibility: hidden;
   -webkit-transition: all 300ms ease-in-out;
@@ -527,27 +527,79 @@ a {
 }
 
 .stintro-text {
-  max-width: 50rem;
+  max-width: 60rem;
   margin-bottom: 3rem;
 }
 
 .stintro-text h1 {
+  margin: auto 2.5rem;
   padding: 2rem 0px 1.7rem 0px;
   font-size: 2.5rem;
-  margin: 0;
+}
+
+@media only screen and (min-width: 767px) {
+  .stintro-text h1 {
+    margin-right: 0px;
+    margin-left: 4rem;
+  }
+}
+
+@media only screen and (min-width: 1023px) {
+  .stintro-text h1 {
+    margin: 0px;
+  }
+}
+
+.stintro-text p {
+  margin-left: 2.5rem;
+  margin-right: 4rem;
+}
+
+@media only screen and (min-width: 767px) {
+  .stintro-text p {
+    margin-right: 3.4rem;
+    margin-left: 4rem;
+  }
+}
+
+@media only screen and (min-width: 1023px) {
+  .stintro-text p {
+    margin: 0px;
+  }
 }
 
 .stintro-banner {
   width: 100%;
+  height: 26.7rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
-  padding: 2.5rem 0px 3rem 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media only screen and (min-width: 1023px) {
+  .stintro-banner {
+    height: auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    padding: 2.5rem 0px 3rem 0px;
+  }
 }
 
 .stintro-actlogo {
@@ -569,24 +621,83 @@ a {
 }
 
 .test-i {
-  max-width: 50rem;
+  max-width: 60rem;
   text-align: left;
 }
 
 .test-i h1 {
-  padding: 5.07rem 0px 1.7rem 0px;
+  margin: auto 2.5rem;
+  padding: 5.0625rem 0px 1.7rem 0px;
   font-size: 2.5rem;
-  margin: 0;
+}
+
+@media only screen and (min-width: 767px) {
+  .test-i h1 {
+    padding: 5.07rem 0px 1.7rem 4rem;
+    font-size: 2.5rem;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 1023px) {
+  .test-i h1 {
+    padding: 5.07rem 0px 1.7rem 0px;
+    font-size: 2.5rem;
+    margin: 0;
+  }
 }
 
 .test-i h3 {
   font-weight: 600;
   color: #253439;
+  margin: 1rem 2.5rem 0px 2.5rem;
+}
+
+@media only screen and (min-width: 767px) {
+  .test-i h3 {
+    margin-left: 4rem;
+  }
+}
+
+@media only screen and (min-width: 1023px) {
+  .test-i h3 {
+    margin: 0;
+  }
 }
 
 .test-i p {
+  margin-left: 2.5rem;
+  margin-right: 4rem;
   line-height: 2;
-  font-size: 1.1rem;
+}
+
+.test-i p a {
+  color: #048479;
+  font-weight: 400;
+  text-decoration: underline;
+  -webkit-transition: color 200ms ease-in-out;
+  transition: color 200ms ease-in-out;
+}
+
+.test-i p a:hover {
+  color: black;
+}
+
+@media only screen and (min-width: 767px) {
+  .test-i p {
+    margin-right: 3.4rem;
+    margin-left: 4rem;
+  }
+}
+
+@media only screen and (min-width: 1023px) {
+  .test-i p {
+    margin: 0px;
+  }
+}
+
+.test-i figcaption {
+  font-size: 0.8rem;
 }
 
 .test-i > div {
@@ -599,6 +710,17 @@ a {
 
 #sat {
   background-color: white;
+}
+
+#sat-dash {
+  max-width: 100%;
+  margin: 1.25rem 0px;
+}
+
+#sat-card {
+  max-width: 65%;
+  max-height: 65%;
+  margin: 1.25rem 0px;
 }
 
 #ap {
