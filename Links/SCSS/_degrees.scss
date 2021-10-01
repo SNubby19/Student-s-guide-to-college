@@ -50,9 +50,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 
     width: 200px;
     height: 200px;
+
+    color: $white;
     
     transition: all 200ms ease-in-out;
 
