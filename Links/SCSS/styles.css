@@ -146,6 +146,10 @@ a {
   opacity: 0.8;
 }
 
+.container {
+  max-width: 60rem;
+}
+
 .header {
   position: -webkit-sticky;
   position: sticky;
@@ -497,25 +501,7 @@ a {
 
 .degrees-title {
   font-weight: 400;
-  margin: 0px 0px 2rem 3rem;
-}
-
-@media only screen and (min-width: 767px) {
-  .degrees-title {
-    margin-left: 4.1rem;
-  }
-}
-
-@media only screen and (min-width: 1023px) {
-  .degrees-title {
-    margin-left: 5.2rem;
-  }
-}
-
-@media only screen and (min-width: 1439px) {
-  .degrees-title {
-    margin-left: 17rem;
-  }
+  margin-bottom: 2rem;
 }
 
 .degrees-layout {
@@ -568,6 +554,8 @@ a {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  -webkit-box-shadow: 0px 0px 5px #048479;
+          box-shadow: 0px 0px 5px #048479;
   width: 200px;
   height: 200px;
   color: white;
@@ -576,8 +564,8 @@ a {
 }
 
 .degree:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .degree-title {
